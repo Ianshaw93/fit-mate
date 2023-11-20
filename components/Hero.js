@@ -10,7 +10,7 @@ const Hero = () => {
         {/* Container */}
         <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
           {/* <h1 className='text-4xl sm:text-6xl font-bold'>Elevate Your Fitness Business with AI:</h1> */}
-          <h1 className='text-4xl sm:text-6xl font-bold'>Elevate Your Fitness Business with AI:</h1>
+          <h1 className='text-4xl sm:text-4xl font-bold'>Elevate Your Fitness Business with AI:</h1>
           {/* <h2 className='text-4xl sm:text-6xl font-bold text-[#CBD0D3]'>More Time, More Clients, More Impact</h2> */}
           <h2 className='text-2xl sm:text-2xl font-bold text-[#CBD0D3]'>Professional Video Editing:</h2>
           {/* Unlock a new level of efficiency with our two-pronged AI solution: */}
