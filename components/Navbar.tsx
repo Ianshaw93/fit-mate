@@ -25,7 +25,7 @@ export default function NavComponent() {
 		<>
 			<div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-white">
 				<div className="flex-1">
-					<a className="text-[#40AAE8] btn btn-ghost normal-case text-xl" href="#home">
+					<a className="text-[#40AAE8] btn btn-ghost normal-case text-xl" href="/">
 {/* include padding above and to the left */}
 						<Image
 						src={white_logo}

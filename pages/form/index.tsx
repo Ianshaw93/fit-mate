@@ -11,7 +11,7 @@ const MyFormPage = () => {
     const handleLoad = () => {
       // Check if the confirmation page is loaded
       // Then redirect
-      router.push('/next-page');
+      router.push('/');
     };
 
     const iframe = iframeRef.current;
