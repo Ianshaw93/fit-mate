@@ -1,10 +1,17 @@
 import React from 'react'
 import { HiArrowNarrowRight } from 'react-icons/hi';
+import { useRouter } from 'next/router';
+
 
 // Land more clients, improve effiency  
 "Elevate Your Fitness Business with AI: More Time, More Clients, More Impact"
 const Hero = () => {
   const logoSize = 300
+  const router = useRouter();
+
+  const navigateToForm = () => {
+		router.push('/form');
+		};
   return (
     <div id={'home'} className='w-full h-screen'>
         {/* Container */}
@@ -22,7 +29,7 @@ const Hero = () => {
           <p className='py-4 max-w-[700px]'>6 week Beta Program Participaction Fee: $50</p>
           
           <div>
-          <button onClick={() => window.location.replace("/form")} className='text-black hover:text-white border-2 px-10 py-6 my-6 flex items-center bg-[#9CC9B7]'>
+          <button onClick={navigateToForm} className='text-black hover:text-white border-2 px-10 py-6 my-6 flex items-center bg-[#9CC9B7]'>
             Join Our Beta Program  <HiArrowNarrowRight />
           </button>
         </div>
