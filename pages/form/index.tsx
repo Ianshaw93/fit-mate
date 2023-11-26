@@ -1,30 +1,30 @@
-import { useEffect, useRef } from 'react';
-import { useRouter } from 'next/router';
+// import { useEffect, useRef } from 'react';
+// import { useRouter } from 'next/router';
 import NavComponent from '../../components/Navbar';
 
 // client
 const MyFormPage = () => {
-  const router = useRouter();
-  const iframeRef = useRef(null);
+  // const router = useRouter();
+  // const iframeRef = useRef(null);
 
-  useEffect(() => {
-    const handleLoad = () => {
-      // Check if the confirmation page is loaded
-      // Then redirect
-      router.push('/');
-    };
+  // useEffect(() => {
+  //   const handleLoad = () => {
+  //     // Check if the confirmation page is loaded
+  //     // Then redirect
+  //     router.push('/');
+  //   };
 
-    const iframe = iframeRef.current;
-    if (iframe) {
-      iframe.addEventListener('load', handleLoad);
-    }
+  //   // const iframe = iframeRef.current;
+  //   // if (iframe) {
+  //   //   iframe.addEventListener('load', handleLoad);
+  //   // }
 
-    return () => {
-      if (iframe) {
-        iframe.removeEventListener('load', handleLoad);
-      }
-    };
-  }, [router]);
+  //   // return () => {
+  //   //   if (iframe) {
+  //   //     iframe.removeEventListener('load', handleLoad);
+  //   //   }
+  //   // };
+  // }, [router]);
   return (
     <>
 
