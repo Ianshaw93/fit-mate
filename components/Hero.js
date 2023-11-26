@@ -29,7 +29,11 @@ const Hero = () => {
           <p className='py-4 max-w-[700px]'>6 week Beta Program Participaction Fee: $50</p>
           
           <div>
-          <button onClick={navigateToForm} className='text-black hover:text-white border-2 px-10 py-6 my-6 flex items-center bg-[#9CC9B7]'>
+          <button 
+            onClick={() => {
+              router.push('/form');
+            }} 
+            className='text-black hover:text-white border-2 px-10 py-6 my-6 flex items-center bg-[#9CC9B7]'>
             Join Our Beta Program  <HiArrowNarrowRight />
           </button>
         </div>
