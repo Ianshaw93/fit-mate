@@ -19,12 +19,12 @@ const Hero = () => {
           {/* <h1 className='text-4xl sm:text-6xl font-bold'>Elevate Your Fitness Business with AI:</h1> */}
           <h1 className='text-4xl sm:text-4xl font-bold'>Elevate Your Fitness Business with AI:</h1>
           {/* <h2 className='text-4xl sm:text-6xl font-bold text-[#CBD0D3]'>More Time, More Clients, More Impact</h2> */}
-          <h2 className='text-2xl sm:text-2xl font-bold text-[#CBD0D3]'>Professional Video Editing:</h2>
+          {/* <h2 className='text-2xl sm:text-2xl font-bold text-[#CBD0D3]'>Professional Video Editing:</h2> */}
           {/* Unlock a new level of efficiency with our two-pronged AI solution: */}
 
-          Attract more clients with our expertly edited content for up to 8 short-form videos or one long-form video per month.
-          <h2 className='text-2xl sm:text-2xl font-bold text-[#CBD0D3]'>Streamlined Communication:</h2>
-          Boost your sales and client retention rates. Manage and automate all your messages and emails effortlessly in one place.
+          Elevate your client interaction with our state-of-the-art automated engagement system. Tailored to your business needs, this tool effortlessly manages and nurtures leads through personalized, automated responses. Imagine having a virtual assistant who is always on, guiding your potential clients towards the right fitness solutions, all while you focus on what you do best - transforming lives.
+          {/* <h2 className='text-2xl sm:text-2xl font-bold text-[#CBD0D3]'>Streamlined Communication:</h2>
+          Boost your sales and client retention rates. Manage and automate all your messages and emails effortlessly in one place. */}
 
           <p className='py-4 max-w-[700px]'>6 week Beta Program Participaction Fee: $50</p>
           
