@@ -8,7 +8,7 @@ import Work from '../components/Work'
 export default function Main() {
   return (
     <>
-      <NavComponent />
+      {/* <NavComponent /> */}
       <Hero />
       {/* <About />
       <Work /> */}
