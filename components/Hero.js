@@ -31,7 +31,7 @@ const Hero = () => {
           {/* <h2 className='text-2xl sm:text-2xl font-bold text-[#CBD0D3]'>Streamlined Communication:</h2>
           Boost your sales and client retention rates. Manage and automate all your messages and emails effortlessly in one place. */}
 
-          <p className='py-4 max-w-[700px]'>6 week Beta Program Participaction Fee: $50</p>
+          <p className='py-4 max-w-[700px]'>6 week Beta Program Participation Fee: $50</p>
           
           <div className='mb-5'>
           <button 
