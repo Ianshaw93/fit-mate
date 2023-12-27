@@ -17,7 +17,10 @@ const Hero = () => {
     <div className='w-full'>
         <NavComponent />
         {/* Container */}
-        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center'>
+        <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center overflow-y-auto'>
+          {/* height 100% */}
+          <div className='flex flex-col justify-between h-full'>
+
           {/* <h1 className='text-4xl sm:text-6xl font-bold'>Elevate Your Fitness Business with AI:</h1> */}
           <h1 className='text-4xl sm:text-4xl font-bold mt-40'>More Clients, More Impact:</h1>
           {/* <h2 className='text-4xl sm:text-6xl font-bold text-[#CBD0D3]'>More Time, More Clients, More Impact</h2> */}
@@ -33,6 +36,7 @@ const Hero = () => {
 
           <p className='py-4 max-w-[700px]'>6 week Beta Program Participation Fee: $50</p>
           
+          </div>
           <div className='mb-5'>
           <button 
             onClick={() => {
@@ -41,9 +45,10 @@ const Hero = () => {
             className='text-black hover:text-white border-2 px-10 py-6 my-6 flex items-center bg-[#9CC9B7]'>
             Join Our Beta Program  <HiArrowNarrowRight />
           </button>
-          <iframe 
-            width="560" 
-            height="315" 
+          <iframe
+            className="w-full aspect-video" 
+            // width="560" 
+            // height="315" 
             src="https://www.youtube.com/embed/PLhBw0xj-ig" 
             title="YouTube video player" 
             frameBorder="0" 
