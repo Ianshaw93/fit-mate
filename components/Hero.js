@@ -49,7 +49,7 @@ const Hero = () => {
             className="w-full aspect-video" 
             // width="560" 
             // height="315" 
-            src="https://www.youtube.com/embed/0x-49ftzoK8?si=0j3gXLNfkZJ0v_HV" 
+            src="https://www.youtube.com/embed/fXZwGMBs5lM?si=2Z4O8dQqZqpwtwVn" 
             title="YouTube video player" 
             frameBorder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
